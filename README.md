@@ -1,3 +1,50 @@
+## Angular & Typescript
+[Angular GitHub]()
+
+
+
+## Git kurulumu
+https://git-scm.com/downloads/win
+git config --global user.name "MustafaBykclk"
+git config --global user.email "mustafabykclk95@gmail.com"
+
+-- 
+
+## Node JS 
+https://nodejs.org/en/download/package-manager
+
+--
+
+## Version
+git -v 
+npm -v
+npm list 
+npm list -g 
+
+--
+
+## Angular Kurulum 
+npm install -g typescript 
+npm install -g @angular/cli 
+npm uninstall -g @angular/cli 
+ng version
+ng v 
+ng --help 
+
+--
+
+## Angular Başlat
+ng new tech-angular-app
+cd tech-angular-app 
+ng serve
+ng serve --open 
+ng serve --port 999 --open 
+http://localhost:9999
+curl localhost:9999 
+
+--
+
+
 # TechAngularApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.9.
