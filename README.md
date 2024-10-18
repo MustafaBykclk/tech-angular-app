@@ -17,9 +17,19 @@ https://nodejs.org/en/download/package-manager
 
 ## Version
 git -v 
-npm -v
+npm -v 
+
+## Npm Komutları
+npm init
+npm init -y
 npm list 
-npm list -g 
+npm list -g
+npm list -g --depth=0
+
+npm root
+npm root -g
+
+npm config list-l
 
 --
 
@@ -43,6 +53,53 @@ http://localhost:9999
 curl localhost:9999 
 
 --
+
+## Angular CLI Hazır Bileşenler
+ng generate component loginComponent
+ng g v login
+ng g pipe loginPipeline
+ng g service loginService
+ng g module loginModule
+ng g directive loginDirective
+ng g interface loginInterface
+ng g enum loginEnum
+
+## 3.Parti Uygulamalar Ekle
+
+### Bootstrap
+"styles": [
+              "src/styles.css",
+              "node_modules/font-awesome/css/font-awesome.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
+            ],
+            "scripts": [
+
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "node_modules/jquery/dist/css/jquery.min.js"
+            ],
+
+### jQuerry
+'''sh
+Terminal => npm i jquery
+angular.json =>  ,
+            "scripts": [
+              "node_modules/jquery/dist/css/jquery.min.js"
+            ], 
+    <div class="alert alert-primary" role="alert"> Bootstrap Çalıştı </div>
+
+    
+            
+
+
+'''
+
+
+
+
+
+
+
+
 
 
 # TechAngularApp
